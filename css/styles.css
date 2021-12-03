@@ -217,7 +217,7 @@ input[type='checkbox']:checked:after {
 .formulario {
   display: flex;
   color: white;
-  width: 400px;
+  width: 430px;
   /* padding-top: 50px;
   padding-right: 10px;
   padding-left: 10px;
@@ -261,6 +261,7 @@ input[type='checkbox']:checked:after {
 /* Tablas */
 table {
 width: 100%; 
+margin-bottom: 60%;
 /* Toma el 100% de su padre contenedor que tiene los800px */
 }
 
@@ -275,15 +276,42 @@ th {
 }
 
 
-
-
 td {
   padding: 20px;
 }
 
 table, td, th {
-border: 1px solid #C29B61;
-border-collapse: collapse ;
+  font-size: 20px;
+  border: 0;
+
+/* border: 1px solid #C29B61;
+border-collapse: collapse ; */
+
+}
+i{
+  font-size: 12px;
+}
+
+.precio {
+  background: #9c540c;
+  border-radius: 50%;
+  color: white;
+  font-size: 12px;
+  padding: 15px 7px;
+  text-align: center;
+  width: 35px;
+
+}
+.titulo-precio {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #3a2b29;
+  font-size: 45px;
+  font-family: 'pacifico', cursive;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
 
 }
 
